@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD0C23B61A97D0F90060C83D /* LineStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C23B51A97D0F90060C83D /* LineStore.swift */; };
+		FD18AEFE1A8C299F00FEF3A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD18AEFD1A8C299F00FEF3A4 /* AppDelegate.swift */; };
+		FD18AF001A8C299F00FEF3A4 /* PaintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD18AEFF1A8C299F00FEF3A4 /* PaintViewController.swift */; };
+		FD18AF051A8C299F00FEF3A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD18AF041A8C299F00FEF3A4 /* Images.xcassets */; };
+		FD18AF141A8C299F00FEF3A4 /* PaintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD18AF131A8C299F00FEF3A4 /* PaintTests.swift */; };
+		FD18AF1E1A8C2A3800FEF3A4 /* PaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD18AF1D1A8C2A3800FEF3A4 /* PaintView.swift */; };
+		FD18AF201A8C2BFB00FEF3A4 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD18AF1F1A8C2BFB00FEF3A4 /* Drawing.swift */; };
+		FD375E501A9529D00039666B /* PaintTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD375E4F1A9529D00039666B /* PaintTools.swift */; };
+		FD4AB93E1A8D9C5900BAA7CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4AB93D1A8D9C5900BAA7CC /* Default-568h@2x.png */; };
+		FD7441291A99127000F7DA7D /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7441281A99127000F7DA7D /* PlayButton.swift */; };
+		FD751EB41A9C541F00316845 /* viewMode.png in Resources */ = {isa = PBXBuildFile; fileRef = FD751EB31A9C541F00316845 /* viewMode.png */; };
+		FDD885C71A9C38FB00B60C1B /* ColorSwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = FDD885C61A9C38FB00B60C1B /* ColorSwatch.png */; };
+		FDD885CD1A9C453C00B60C1B /* brush.png in Resources */ = {isa = PBXBuildFile; fileRef = FDD885CC1A9C453C00B60C1B /* brush.png */; };
+		FDD885CF1A9C48B400B60C1B /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = FDD885CE1A9C48B400B60C1B /* play.png */; };
+		FDD885D11A9C4AA600B60C1B /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = FDD885D01A9C4AA600B60C1B /* gear.png */; };
+		FDD885D31A9C4B5300B60C1B /* Gear.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD885D21A9C4B5300B60C1B /* Gear.swift */; };
+		FDE396C51A9C2C0100E52D4E /* ColorSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE396C41A9C2C0100E52D4E /* ColorSwatch.swift */; };
+		FDE7AC901A96D8CE00BD3FD1 /* MovieTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7AC8F1A96D8CE00BD3FD1 /* MovieTools.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD18AF0E1A8C299F00FEF3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD18AEF01A8C299F00FEF3A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD18AEF71A8C299F00FEF3A4;
+			remoteInfo = Paint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD0C23B51A97D0F90060C83D /* LineStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineStore.swift; sourceTree = "<group>"; };
+		FD18AEF81A8C299F00FEF3A4 /* Paint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD18AEFC1A8C299F00FEF3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD18AEFD1A8C299F00FEF3A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD18AEFF1A8C299F00FEF3A4 /* PaintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintViewController.swift; sourceTree = "<group>"; };
+		FD18AF041A8C299F00FEF3A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD18AF0D1A8C299F00FEF3A4 /* PaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD18AF121A8C299F00FEF3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD18AF131A8C299F00FEF3A4 /* PaintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintTests.swift; sourceTree = "<group>"; };
+		FD18AF1D1A8C2A3800FEF3A4 /* PaintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintView.swift; sourceTree = "<group>"; };
+		FD18AF1F1A8C2BFB00FEF3A4 /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		FD375E4F1A9529D00039666B /* PaintTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintTools.swift; sourceTree = "<group>"; };
+		FD4AB93D1A8D9C5900BAA7CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FD7441281A99127000F7DA7D /* PlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		FD751EB31A9C541F00316845 /* viewMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viewMode.png; sourceTree = "<group>"; };
+		FDD885C61A9C38FB00B60C1B /* ColorSwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSwatch.png; sourceTree = "<group>"; };
+		FDD885CC1A9C453C00B60C1B /* brush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brush.png; sourceTree = "<group>"; };
+		FDD885CE1A9C48B400B60C1B /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		FDD885D01A9C4AA600B60C1B /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		FDD885D21A9C4B5300B60C1B /* Gear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gear.swift; path = ../Gear.swift; sourceTree = "<group>"; };
+		FDE396C41A9C2C0100E52D4E /* ColorSwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSwatch.swift; sourceTree = "<group>"; };
+		FDE7AC8F1A96D8CE00BD3FD1 /* MovieTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTools.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD18AEF51A8C299F00FEF3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD18AF0A1A8C299F00FEF3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD18AEEF1A8C299F00FEF3A4 = {
+			isa = PBXGroup;
+			children = (
+				FD4AB93D1A8D9C5900BAA7CC /* Default-568h@2x.png */,
+				FD18AEFA1A8C299F00FEF3A4 /* Paint */,
+				FD18AF101A8C299F00FEF3A4 /* PaintTests */,
+				FD18AEF91A8C299F00FEF3A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD18AEF91A8C299F00FEF3A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD18AEF81A8C299F00FEF3A4 /* Paint.app */,
+				FD18AF0D1A8C299F00FEF3A4 /* PaintTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD18AEFA1A8C299F00FEF3A4 /* Paint */ = {
+			isa = PBXGroup;
+			children = (
+				FD18AEFD1A8C299F00FEF3A4 /* AppDelegate.swift */,
+				FD18AEFF1A8C299F00FEF3A4 /* PaintViewController.swift */,
+				FD18AF1D1A8C2A3800FEF3A4 /* PaintView.swift */,
+				FD7441281A99127000F7DA7D /* PlayButton.swift */,
+				FD0C23B51A97D0F90060C83D /* LineStore.swift */,
+				FD375E4F1A9529D00039666B /* PaintTools.swift */,
+				FDE396C41A9C2C0100E52D4E /* ColorSwatch.swift */,
+				FDD885D21A9C4B5300B60C1B /* Gear.swift */,
+				FDE7AC8F1A96D8CE00BD3FD1 /* MovieTools.swift */,
+				FD18AF1F1A8C2BFB00FEF3A4 /* Drawing.swift */,
+				FD18AF041A8C299F00FEF3A4 /* Images.xcassets */,
+				FDE396C81A9C330400E52D4E /* assets */,
+				FD18AEFB1A8C299F00FEF3A4 /* Supporting Files */,
+			);
+			path = Paint;
+			sourceTree = "<group>";
+		};
+		FD18AEFB1A8C299F00FEF3A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD18AEFC1A8C299F00FEF3A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD18AF101A8C299F00FEF3A4 /* PaintTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD18AF131A8C299F00FEF3A4 /* PaintTests.swift */,
+				FD18AF111A8C299F00FEF3A4 /* Supporting Files */,
+			);
+			path = PaintTests;
+			sourceTree = "<group>";
+		};
+		FD18AF111A8C299F00FEF3A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD18AF121A8C299F00FEF3A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDE396C81A9C330400E52D4E /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				FD751EB31A9C541F00316845 /* viewMode.png */,
+				FDD885D01A9C4AA600B60C1B /* gear.png */,
+				FDD885CE1A9C48B400B60C1B /* play.png */,
+				FDD885CC1A9C453C00B60C1B /* brush.png */,
+				FDD885C61A9C38FB00B60C1B /* ColorSwatch.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD18AEF71A8C299F00FEF3A4 /* Paint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD18AF171A8C299F00FEF3A4 /* Build configuration list for PBXNativeTarget "Paint" */;
+			buildPhases = (
+				FD18AEF41A8C299F00FEF3A4 /* Sources */,
+				FD18AEF51A8C299F00FEF3A4 /* Frameworks */,
+				FD18AEF61A8C299F00FEF3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paint;
+			productName = Paint;
+			productReference = FD18AEF81A8C299F00FEF3A4 /* Paint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD18AF0C1A8C299F00FEF3A4 /* PaintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD18AF1A1A8C299F00FEF3A4 /* Build configuration list for PBXNativeTarget "PaintTests" */;
+			buildPhases = (
+				FD18AF091A8C299F00FEF3A4 /* Sources */,
+				FD18AF0A1A8C299F00FEF3A4 /* Frameworks */,
+				FD18AF0B1A8C299F00FEF3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD18AF0F1A8C299F00FEF3A4 /* PBXTargetDependency */,
+			);
+			name = PaintTests;
+			productName = PaintTests;
+			productReference = FD18AF0D1A8C299F00FEF3A4 /* PaintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD18AEF01A8C299F00FEF3A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Christopher Reece";
+				TargetAttributes = {
+					FD18AEF71A8C299F00FEF3A4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FD18AF0C1A8C299F00FEF3A4 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FD18AEF71A8C299F00FEF3A4;
+					};
+				};
+			};
+			buildConfigurationList = FD18AEF31A8C299F00FEF3A4 /* Build configuration list for PBXProject "Paint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD18AEEF1A8C299F00FEF3A4;
+			productRefGroup = FD18AEF91A8C299F00FEF3A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD18AEF71A8C299F00FEF3A4 /* Paint */,
+				FD18AF0C1A8C299F00FEF3A4 /* PaintTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD18AEF61A8C299F00FEF3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD885CF1A9C48B400B60C1B /* play.png in Resources */,
+				FDD885D11A9C4AA600B60C1B /* gear.png in Resources */,
+				FD18AF051A8C299F00FEF3A4 /* Images.xcassets in Resources */,
+				FDD885CD1A9C453C00B60C1B /* brush.png in Resources */,
+				FDD885C71A9C38FB00B60C1B /* ColorSwatch.png in Resources */,
+				FD4AB93E1A8D9C5900BAA7CC /* Default-568h@2x.png in Resources */,
+				FD751EB41A9C541F00316845 /* viewMode.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD18AF0B1A8C299F00FEF3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD18AEF41A8C299F00FEF3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD18AF201A8C2BFB00FEF3A4 /* Drawing.swift in Sources */,
+				FDE7AC901A96D8CE00BD3FD1 /* MovieTools.swift in Sources */,
+				FD7441291A99127000F7DA7D /* PlayButton.swift in Sources */,
+				FD375E501A9529D00039666B /* PaintTools.swift in Sources */,
+				FD18AF001A8C299F00FEF3A4 /* PaintViewController.swift in Sources */,
+				FD18AEFE1A8C299F00FEF3A4 /* AppDelegate.swift in Sources */,
+				FDD885D31A9C4B5300B60C1B /* Gear.swift in Sources */,
+				FD18AF1E1A8C2A3800FEF3A4 /* PaintView.swift in Sources */,
+				FD0C23B61A97D0F90060C83D /* LineStore.swift in Sources */,
+				FDE396C51A9C2C0100E52D4E /* ColorSwatch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD18AF091A8C299F00FEF3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD18AF141A8C299F00FEF3A4 /* PaintTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD18AF0F1A8C299F00FEF3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD18AEF71A8C299F00FEF3A4 /* Paint */;
+			targetProxy = FD18AF0E1A8C299F00FEF3A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FD18AF151A8C299F00FEF3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD18AF161A8C299F00FEF3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD18AF181A8C299F00FEF3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Paint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD18AF191A8C299F00FEF3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Paint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD18AF1B1A8C299F00FEF3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paint.app/Paint";
+			};
+			name = Debug;
+		};
+		FD18AF1C1A8C299F00FEF3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paint.app/Paint";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD18AEF31A8C299F00FEF3A4 /* Build configuration list for PBXProject "Paint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD18AF151A8C299F00FEF3A4 /* Debug */,
+				FD18AF161A8C299F00FEF3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD18AF171A8C299F00FEF3A4 /* Build configuration list for PBXNativeTarget "Paint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD18AF181A8C299F00FEF3A4 /* Debug */,
+				FD18AF191A8C299F00FEF3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD18AF1A1A8C299F00FEF3A4 /* Build configuration list for PBXNativeTarget "PaintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD18AF1B1A8C299F00FEF3A4 /* Debug */,
+				FD18AF1C1A8C299F00FEF3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD18AEF01A8C299F00FEF3A4 /* Project object */;
+}
